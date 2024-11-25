@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    @GetMapping("/hello") // Đảm bảo đường dẫn đúng.
+    @GetMapping("/hello") 
     public String sayHello() {
         return "Hello World!";
     }
